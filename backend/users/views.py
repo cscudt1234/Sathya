@@ -47,5 +47,4 @@ def login(request):
     return Response({
         "error": "Invalid username or password"
     }, status=401)
-    
-    print("Hello!")
+  
